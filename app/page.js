@@ -1,4 +1,4 @@
-export const dynamic = "force-dynamic";
+
 
 import Image from "next/image";
 import Hero from "@/public/hero.png";
@@ -6,10 +6,9 @@ import Link from "next/link";
 import { albertSans, montserratAlt } from "@/lib/fonts";
 
 export default function Home() {
-  console.log("test");
   return (
-    <div className="flex py-5 px-10">
-      <div className={`flex-1 flex flex-col justify-center px-20 gap-y-3`}>
+    <div className="flex flex-col space-y-10 sm:space-y-0 sm:flex-row py-5 px-10">
+      <div className={`flex-1 flex flex-col justify-center sm:px-20 gap-y-3`}>
         <p
           className={`${albertSans.className} text-[16px] font-[500] uppercase text-[#1E1E1E]`}
         >
