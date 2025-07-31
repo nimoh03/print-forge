@@ -6,11 +6,11 @@ import { albertSans, montserratAlt } from "@/lib/fonts";
 
 function Navbar() {
   return (
-    <div className="flex justify-between px-3 md:px-10 py-5 items-center">
+    <div className="flex justify-between px-3 min-[550px]:px-10 py-5 items-center">
       <div>
         <Image src={Logo} alt="" />
       </div>
-      <div className="flex gap-x-4 md:gap-x-10">
+      <div className="flex gap-x-2 min-[550px]:gap-x-10">
         <Link href={"/"} className={`${albertSans.className} transition-all duration-300 ease-in hover:text-red-600`}>3d Models</Link>
         <Link href={"/"} className={`${albertSans.className} transition-all duration-300 ease-in hover:text-red-600`}>About</Link>
       </div>
