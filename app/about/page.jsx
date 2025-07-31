@@ -9,29 +9,29 @@ import { albertSans, montserratAlt } from "@/lib/fonts";
 
 function About() {
   return (
-    <div className="space-y-10 pb-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-8" >
-        <div className="py-5">
-          <Image src={AboutImage} alt="" className="rounded w-[95%]" />
+    <div className="space-y-10 pb-10 h-fit">
+      <div className="grid grid-cols-1 md:grid-cols-2 px-10 md:px-15 gap-4">
+        <div className="flex justify-center items-center">
+          <Image src={AboutImage} alt="" className="rounded w-[95%] md:w-full" />
         </div>
-        <div className="py-20">
+        <div className="py-10 md:px-10 md:mt-10">
           <p
-            className={`${albertSans.className} font-[500] text-[18px] uppercase text-left w-full`}
+            className={`${albertSans.className} font-[500] text-[14px] md:text-[16px] lgl:text-[18px] uppercase text-left w-full`}
           >
             About printforge
           </p>
           <p
-            className={`${montserratAlt.className} font-[700] text-[53px] text-[#1E1E1E] text-left w-full`}
+            className={`${montserratAlt.className} font-[700] text-[33px] md:text-[43px] lg:text-[53px] text-[#1E1E1E] text-left w-full`}
           >
             Empowering <br />
             makers worldwide
           </p>
           <p
-            className={`${albertSans.className} font-[400] text-[18px] text-left w-full`}
+            className={`${albertSans.className} font-[400] text-[14px] md:text-[16px] lg:text-[18px] text-left w-full`}
           >
             Founded in 2023, PrintForge has quickly become the go-to platform
             for 3D printing enthusiasts, makers, and professional designers to
-            share and discover amazing STL files for 3D printing. <br />
+            share and discover amazing STL files for 3D printing. <br /><br/>
             Our mission is to foster a vibrant community where creativity meets
             technology, enabling anyone to bring their ideas to life through 3D
             printing.
