@@ -52,7 +52,7 @@ function layout({ children }) {
   return (
     <>
       {isMobile && (
-        <div className="flex overflow-x-scroll gap-x-5 px-5 py-3 thin-scrollbar sticky top-[101px] bg-white">
+        <div className="flex overflow-x-scroll gap-x-5 px-5 py-3 thin-scrollbar sticky top-[80px] bg-white">
           {links.map((item) => {
             return (
               <Link

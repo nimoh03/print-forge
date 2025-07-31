@@ -51,7 +51,7 @@ function SidebarLayout() {
     },
   ];
   return (
-    <Sidebar className={`mt-[101px] bg-white  border-0`}>
+    <Sidebar className={`mt-[101px] border-0`}>
       <SidebarContent
         className={` text-[#606060] flex justify-center bg-white border-0`}
       >
@@ -60,7 +60,7 @@ function SidebarLayout() {
             <Link
               href={``}
               key={item.id}
-              className={`ps-[30px] ${albertSans.className} font-[500] text-[14px] transition-all duration-300 ease-in hover:text-red-600`}
+              className={`ps-[50px] ${albertSans.className} font-[500] text-[16px] transition-all duration-300 ease-in hover:text-red-600`}
             >
               {item.name}
             </Link>

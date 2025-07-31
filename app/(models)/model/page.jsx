@@ -4,11 +4,11 @@ import { albertSans, montserratAlt } from "@/lib/fonts";
 
 function page() {
   return (
-    <div className="px-10 space-y-4">
-      <p className={`${montserratAlt.className} font-[700] text-[32px]`}>
+    <div className="px-5 space-y-4 mt-[49px] w-full h-fit" >
+      <p className={`${montserratAlt.className} hidden md:block font-[700] text-[32px]`}>
         3D Models
       </p>
-      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-6 grid-cols-1 min-[450]:grid-cols-2 lg:grid-cols-4 justify-center items-center">
         <Card />
         <Card />
         <Card />
